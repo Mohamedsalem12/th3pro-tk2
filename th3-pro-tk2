@@ -1,0 +1,47 @@
+
+*{
+margin:0;
+padding:0;
+outline:0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent;
+}
+/* remember to highlight inserts somehow! */
+ins {
+text-decoration:underline;
+}
+del {
+text-decoration: line-through;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, il, a, input {
+direction:rtl;
+}
+a {text-decoration:none;font:normal 14px tahoma, arial;}
+a :visited{text-decoration:none;}
+a :hover{text-decoration:none;}
+blockquote
+{
+margin:5px 17px;
+padding:7px;
+border:2px solid #3e89f1;
+color:#000;
+background:#E9F4FA;
+}
+ul , ol , dl {
+list-style-position:inside;
+font-weight:bold;
+list-style:none;
+}
